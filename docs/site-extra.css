@@ -44,3 +44,36 @@
     grid-template-columns: 1fr;
   }
 }
+
+.hero {
+  display: grid;
+  gap: clamp(26px, 5vw, 80px);
+  grid-template-columns: minmax(0, 1.2fr) minmax(230px, .55fr);
+}
+
+.heroFlyer {
+  align-self: center;
+  border: 1px solid #d4b15f99;
+  box-shadow: 0 20px 64px #000c;
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+
+.heroFlyer img {
+  display: block;
+  height: auto;
+  max-height: min(65vh, 660px);
+  object-fit: cover;
+  width: 100%;
+}
+
+@media (max-width: 850px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .heroFlyer {
+    display: none;
+  }
+}
