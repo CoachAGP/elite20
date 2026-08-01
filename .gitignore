@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.vinext/
+.vite/
+dist/
+outputs/
+work/
+.env
+.env.*
+!.env.example
+npm-debug.log*
