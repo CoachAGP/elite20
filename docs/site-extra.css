@@ -1,0 +1,46 @@
+.brand {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+}
+
+.brand img {
+  border-radius: 50%;
+  height: 42px;
+  object-fit: cover;
+  width: 42px;
+}
+
+.ticketSpotlight {
+  align-items: center;
+  background: linear-gradient(135deg, #111 0%, #050b16 55%, #15100b 100%);
+  display: grid;
+  gap: clamp(24px, 5vw, 72px);
+  grid-template-columns: minmax(260px, 0.75fr) minmax(300px, 1fr);
+  padding: clamp(55px, 8vw, 110px) clamp(20px, 6vw, 84px);
+}
+
+.ticketSpotlight img {
+  border: 1px solid #d4b15f99;
+  box-shadow: 0 18px 60px #000b;
+  justify-self: center;
+  max-width: 430px;
+  width: 100%;
+}
+
+.ticketSpotlight h2 {
+  margin-bottom: 16px;
+}
+
+.ticketSpotlight p {
+  color: var(--muted);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 26px;
+}
+
+@media (max-width: 760px) {
+  .ticketSpotlight {
+    grid-template-columns: 1fr;
+  }
+}
