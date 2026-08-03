@@ -174,7 +174,7 @@ const rosters = {
 };
 
 const alumni = [
-  "Donovon Clingan - UConn / Portland Trail Blazers",
+  "Abdou Toure - University of Arkansas",
   "Kyle Filipowski - Duke / Utah Jazz",
   "Taylen Kinney - Kansas / McDonald's All American Game",
   "Kaelyn Carroll - Kentucky / McDonald's All American Game",
@@ -326,7 +326,7 @@ export default function Page() {
           <h2>Massive exposure. Incredible NIL opportunities.</h2>
         </div>
         <div className="partnerGrid">
-          <div><Trophy /><strong>NBA Partnered</strong><span>Game streaming live on NBA App and YouTube Channel</span></div>
+          <div><Trophy /><strong>NBA Digital Platforms</strong><span>Game streaming live on NBA App and YouTube Channel</span></div>
           <div><Star /><strong>Basketball Hall of Fame</strong><span>Partnered with the Basketball Hall of Fame</span></div>
           <div><Megaphone /><strong>Sold-out demand</strong><span>2025 game was a smash hit with a sold-out crowd</span></div>
           <div><CircleDollarSign /><strong>NIL value</strong><span>Direct access to future D1, NBA, and WNBA talent</span></div>
