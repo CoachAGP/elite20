@@ -231,7 +231,7 @@ export default function Page() {
           <div className="quickFacts" aria-label="Event highlights">
             <span><CalendarDays size={18} /> August 11</span>
             <span><MapPin size={18} /> Shelton High School</span>
-            <span><Play size={18} /> NBA App and YouTube</span>
+            <span><Play size={18} /> Streamed on NBA App</span>
           </div>
         </div>
       </section>
