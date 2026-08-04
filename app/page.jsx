@@ -219,7 +219,7 @@ export default function Page() {
         </video>
         <div className="heroOverlay" />
         <div className="heroContent">
-          <p className="eyebrow">Free event. NBA partnered. Played for a purpose.</p>
+          <p className="eyebrow">Free event. Played for a purpose.</p>
           <h1>Ta'Quan Zimmerman Elite 20 Invitational</h1>
           <p className="heroText">
             No tickets. No barriers. Built for purpose, not profit. Every dollar donated fuels the fight against bullying.
