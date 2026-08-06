@@ -23,6 +23,10 @@ const instagramUrl =
   "https://www.instagram.com/elite20invitational?igsh=dnJ0NmY5bTQ4NWxq";
 const tuttiEmailUrl =
   "mailto:tootiezimmerman91@gmail.com?subject=Elite%2020%20VIP%20Experience";
+const girlsBroadcastUrl =
+  "https://nba.com/watch/event/future-starts-now-elite-20-girls-game";
+const boysBroadcastUrl =
+  "https://nba.com/watch/event/future-starts-now-elite-20-boys-game";
 const mapsUrl =
   "https://www.google.com/maps/dir/?api=1&destination=Shelton%20High%20School%20120%20Meadow%20Street%20Shelton%20CT%2006484";
 
@@ -257,6 +261,22 @@ export default function Page() {
             <span><CalendarDays size={18} /> August 11</span>
             <span><MapPin size={18} /> Shelton High School</span>
             <span><Play size={18} /> Streamed on NBA App</span>
+          </div>
+        </div>
+      </section>
+
+      <section className="broadcastSpotlight" aria-labelledby="broadcast-title">
+        <div className="nbaAppBadge" aria-label="NBA App">
+          <span className="nbaMark" aria-hidden="true"><Play size={30} fill="currentColor" /></span>
+          <span><small>WATCH LIVE ON</small><strong>NBA APP</strong></span>
+        </div>
+        <div className="broadcastCopy">
+          <p className="eyebrow">Live Broadcasts</p>
+          <h2 id="broadcast-title">Watch both Elite 20 games live.</h2>
+          <p>Choose your game below to watch on NBA.com or in the NBA App.</p>
+          <div className="broadcastLinks">
+            <ButtonLink href={girlsBroadcastUrl} icon={Play}>Watch Girls Game</ButtonLink>
+            <ButtonLink href={boysBroadcastUrl} variant="secondary" icon={Play}>Watch Boys Game</ButtonLink>
           </div>
         </div>
       </section>
