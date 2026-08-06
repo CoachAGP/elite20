@@ -232,7 +232,7 @@ export default function Page() {
           <p className="eyebrow">Limited VIP Experience</p>
           <h2 id="vip-title">Be courtside. Be part of the impact.</h2>
           <p>
-            Tap the flyer or email Tutti at <strong>tootiezimmerman91@gmail.com</strong> for information and to reserve a VIP package.
+            Save your spot by emailing <strong>tootiezimmerman91@gmail.com</strong>.
           </p>
           <ButtonLink href={tuttiEmailUrl}>Email Tutti to Reserve</ButtonLink>
         </div>
