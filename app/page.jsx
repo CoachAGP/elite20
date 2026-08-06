@@ -213,6 +213,29 @@ export default function Page() {
         <ButtonLink href={ticketUrl} icon={Ticket}>Tickets</ButtonLink>
       </nav>
 
+      <section className="vipSpotlight" aria-labelledby="vip-title">
+        <a
+          className="vipFlyerLink"
+          href={instagramUrl}
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Message Elite 20 Invitational on Instagram to reserve a VIP experience"
+        >
+          <img
+            src="/assets/elite-20-ai-vip.png"
+            alt="Elite 20 VIP Experience: $150 donation for premium courtside seating, VIP lounge access, food and beverages, player photo opportunities, and priority entry"
+          />
+        </a>
+        <div className="vipCopy">
+          <p className="eyebrow">Limited VIP Experience</p>
+          <h2 id="vip-title">Be courtside. Be part of the impact.</h2>
+          <p>
+            Tap the flyer or DM <strong>@elite20invitational</strong> on Instagram for information and to reserve a VIP package.
+          </p>
+          <ButtonLink href={instagramUrl} icon={Instagram}>DM to Reserve</ButtonLink>
+        </div>
+      </section>
+
       <section id="home" className="hero">
         <video className="heroVideo" autoPlay muted loop playsInline poster="/assets/6297.png">
           <source src="/assets/6071.mp4" type="video/mp4" />
