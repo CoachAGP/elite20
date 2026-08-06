@@ -101,6 +101,57 @@ main {
   transform: translateY(-2px);
 }
 
+.vipSpotlight {
+  align-items: center;
+  background:
+    radial-gradient(circle at 25% 35%, rgba(212, 177, 95, 0.2), transparent 34%),
+    linear-gradient(135deg, #03070e, #0a1527 70%, #03070e);
+  display: grid;
+  gap: clamp(28px, 5vw, 72px);
+  grid-template-columns: minmax(280px, 0.82fr) minmax(300px, 1.18fr);
+  padding: 116px clamp(20px, 8vw, 132px) clamp(54px, 7vw, 96px);
+}
+
+.vipFlyerLink {
+  display: block;
+  filter: drop-shadow(0 24px 42px rgba(0, 0, 0, 0.55));
+  margin: 0 auto;
+  max-width: 560px;
+  transition: transform 0.25s ease, filter 0.25s ease;
+  width: 100%;
+}
+
+.vipFlyerLink:hover,
+.vipFlyerLink:focus-visible {
+  filter: drop-shadow(0 26px 50px rgba(212, 177, 95, 0.22));
+  transform: translateY(-4px);
+}
+
+.vipFlyerLink img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.vipCopy {
+  max-width: 720px;
+}
+
+.vipCopy h2 {
+  max-width: 760px;
+}
+
+.vipCopy > p:not(.eyebrow) {
+  color: var(--muted);
+  font-size: clamp(1.08rem, 2vw, 1.35rem);
+  line-height: 1.6;
+  max-width: 650px;
+}
+
+.vipCopy strong {
+  color: white;
+}
+
 .hero {
   align-items: flex-end;
   display: flex;
@@ -487,8 +538,14 @@ footer p {
   .mission,
   .rosterLayout,
   .sponsorDetail,
+  .vipSpotlight,
   .venue {
     grid-template-columns: 1fr;
+  }
+
+  .vipCopy {
+    margin: 0 auto;
+    text-align: center;
   }
 
   .partnerGrid,
@@ -542,6 +599,10 @@ footer p {
   .hero {
     min-height: 88vh;
     padding: 112px 18px 52px;
+  }
+
+  .vipSpotlight {
+    padding: 92px 18px 54px;
   }
 
   h1 {
