@@ -21,6 +21,8 @@ const ticketUrl =
   "https://www.eventbrite.com/e/taquan-zimmerman-elite-20-invitational-tickets-1988664704665?aff=ebdssbdestsearch&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAb21jcATW5mNleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAaeOsh9XCDSEF_SM0tZY5XO_vMS3k1c2NzhHNbwURsEooznuLFpnd3ULQ4QkyQ_aem_acgstiHkkATvtdvY73C4vQ";
 const instagramUrl =
   "https://www.instagram.com/elite20invitational?igsh=dnJ0NmY5bTQ4NWxq";
+const tuttiEmailUrl =
+  "mailto:tootiezimmerman91@gmail.com?subject=Elite%2020%20VIP%20Experience";
 const mapsUrl =
   "https://www.google.com/maps/dir/?api=1&destination=Shelton%20High%20School%20120%20Meadow%20Street%20Shelton%20CT%2006484";
 
@@ -216,10 +218,10 @@ export default function Page() {
       <section className="vipSpotlight" aria-labelledby="vip-title">
         <a
           className="vipFlyerLink"
-          href={instagramUrl}
+          href={tuttiEmailUrl}
           target="_blank"
           rel="noreferrer"
-          aria-label="Message Elite 20 Invitational on Instagram to reserve a VIP experience"
+          aria-label="Email Tutti to reserve an Elite 20 VIP experience"
         >
           <img
             src="/assets/elite-20-ai-vip.png"
@@ -230,9 +232,9 @@ export default function Page() {
           <p className="eyebrow">Limited VIP Experience</p>
           <h2 id="vip-title">Be courtside. Be part of the impact.</h2>
           <p>
-            Tap the flyer or DM <strong>@elite20invitational</strong> on Instagram for information and to reserve a VIP package.
+            Tap the flyer or email Tutti at <strong>tootiezimmerman91@gmail.com</strong> for information and to reserve a VIP package.
           </p>
-          <ButtonLink href={instagramUrl} icon={Instagram}>DM to Reserve</ButtonLink>
+          <ButtonLink href={tuttiEmailUrl}>Email Tutti to Reserve</ButtonLink>
         </div>
       </section>
 
