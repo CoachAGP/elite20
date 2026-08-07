@@ -225,7 +225,7 @@ export default function Page() {
           href={tuttiEmailUrl}
           target="_blank"
           rel="noreferrer"
-          aria-label="Email Tutti to reserve an Elite 20 VIP experience"
+          aria-label="Email Ta'Quan to reserve your spot for an Elite 20 VIP experience"
         >
           <img
             src="/assets/elite-20-ai-vip.png"
@@ -238,7 +238,7 @@ export default function Page() {
           <p>
             Save your spot by emailing <strong>tootiezimmerman91@gmail.com</strong>.
           </p>
-          <ButtonLink href={tuttiEmailUrl}>Email Tutti to Reserve</ButtonLink>
+          <ButtonLink href={tuttiEmailUrl}>Email Ta'Quan to Reserve Your Spot</ButtonLink>
         </div>
       </section>
 
