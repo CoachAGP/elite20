@@ -234,7 +234,10 @@ export default function Page() {
         </a>
         <div className="vipCopy">
           <p className="eyebrow">Limited VIP Experience</p>
-          <h2 id="vip-title">Be courtside. Be part of the impact.</h2>
+          <h2 id="vip-title">
+            Be courtside.
+            <span className="vipImpactLine">Be part of the impact.</span>
+          </h2>
           <p>
             Save your spot by emailing <strong>tootiezimmerman91@gmail.com</strong>.
           </p>

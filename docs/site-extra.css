@@ -124,6 +124,15 @@
   max-width: 720px;
 }
 
+.vipCopy h2 {
+  font-size: clamp(1.75rem, 3.6vw, 3.4rem);
+}
+
+.vipImpactLine {
+  display: block;
+  white-space: nowrap;
+}
+
 .vipCopy p:not(.eyebrow) {
   color: var(--muted);
   font-size: clamp(1.08rem, 2vw, 1.35rem);
